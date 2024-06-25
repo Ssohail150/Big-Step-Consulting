@@ -1,25 +1,22 @@
-/* middleSectionIcons.module.css */
-.wrapper{
-    position : relative
+.wrapper {
+    position: relative;
 }
-
 
 .middleSection {
     position: fixed;
     bottom: 20px;
-    right: 10px; /* Adjust top position as needed */
+    right: 10px;
     display: flex;
-    justify-content: flex-end; /* Align icons to the right */
+    justify-content: flex-end;
     align-items: center;
-    z-index: 100; /* Ensure icons are above other content */
-    /* background-color: #fff; Background color if needed */
-    padding: 10px; /* Adjust padding as needed */
+    z-index: 100;
+    padding: 10px;
 }
 
 .icon {
-    font-size: 4rem; /* Adjust size as needed */
-    cursor: pointer; /* Add pointer cursor for interaction */
-    margin-left: 10px; /* Adjust spacing between icons */
+    font-size: 3.5rem;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .skype {
@@ -30,7 +27,10 @@
     color: #00c300; /* Line green color */
 }
 
-/* Add space between icons */
+.whatsapp {
+    color: #25d366; /* WhatsApp green color */
+}
+
 .icon + .icon {
-    margin-left: 20px; /* Adjust spacing between icons */
+    margin-left: 20px;
 }
