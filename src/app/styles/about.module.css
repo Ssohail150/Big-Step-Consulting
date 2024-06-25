@@ -1,0 +1,81 @@
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 100% ;
+    /* text-align: center;  */
+}
+
+.directorMessage {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.directorMessage h2 {
+    font-size: 2.2rem;
+}
+
+.directorMessage p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.logoContainer {
+    width: 250px; /* Adjust logo container size */
+    height: 250px; /* Adjust logo container size */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 2rem; /* Add some space between logo and text on smaller screens */
+}
+
+.logo {
+    border-radius: 50%;
+    width: 250px; /* Adjust logo size */
+    height: 250px; /* Adjust logo size */
+    margin-right: 2rem;
+}
+
+.info {
+    text-align: left; /* Align text to left within the info div */
+}
+
+.message {
+    margin-bottom: 20px; /* Add margin to separate message paragraphs */
+}
+
+.signature {
+    margin-top: 20px; /* Add margin above the signature */
+}
+
+
+@media (max-width: 767px) {
+    .directorMessage {
+        flex-direction: column; /* Change flex direction to column for smaller screens */
+        align-items: center; /* Center items vertically */
+    }
+
+    .logoContainer {
+        width: 150px; /* Adjust logo container size for smaller screens */
+        height: 150px; /* Adjust logo container size for smaller screens */
+        margin-right: 0; /* Remove margin to center logo on smaller screens */
+        margin-bottom: 1rem; /* Add margin below logo for spacing */
+    }
+
+    .logo {
+        width: 150px; /* Adjust logo size for smaller screens */
+        height: 150px; /* Adjust logo size for smaller screens */
+        margin-right: 0; /* Remove margin */
+    }
+
+    .info {
+        text-align: center; /* Center text */
+    }
+
+    .signature {
+        margin-top: 1rem; /* Add margin above the signature */
+    }
+}

@@ -1,0 +1,55 @@
+/* app/styles/header.module.css */
+
+.header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0 !important; /* Remove padding */
+    transition: opacity 0.3s ease-in-out; /* Add transition for opacity */
+}
+
+/* Fade-out transition effect */
+.header.fade-out {
+    opacity: 0;
+}
+/* Navbar brand styles */
+.navBrand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navbar link styles */
+.navLink {
+    color: #0d99da !important; /* Default color */
+    transition: color 0.3s ease-in-out !important;
+}
+
+.navLink:hover {
+    color: #c6e6f5 !important; /* Hover color */
+}
+
+/* Dropdown item styles */
+.dropdownItem {
+    color: #000 !important; /* Default dropdown item color */
+    transition: color 0.3s ease-in-out;
+}
+
+.dropdownItem:hover {
+    color: #0d99da !important; /* Hover color */
+}
+
+/* Navbar toggler styles */
+.navbar-toggler {
+    border-color: #0d99da !important; /* Customize the toggle button color */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23d61515' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    background-color: #fff; /* Background color for dropdown menu */
+    border-radius: 0.25rem; /* Rounded corners */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}

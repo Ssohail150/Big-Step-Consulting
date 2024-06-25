@@ -1,0 +1,75 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/chunks/app/_not-found/page-577bd9307e9c9046.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/698d757d1528ff6b.css",
+      "static/css/d3df112486f97f47.css",
+      "static/css/48b92cf446389b53.css",
+      "static/chunks/69b09407-f4af1afc4031f3f1.js",
+      "static/chunks/173-24da8ac9af1b1c03.js",
+      "static/chunks/573-49560d8834ebdc4d.js",
+      "static/chunks/861-0bbd254b8920467f.js",
+      "static/chunks/app/layout-3d14461f4cf0c9ad.js"
+    ],
+    "/accounting/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/a5382a1fa857d690.css",
+      "static/chunks/173-24da8ac9af1b1c03.js",
+      "static/chunks/app/accounting/page-981d43be2629f787.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/d3df112486f97f47.css",
+      "static/chunks/8e1d74a4-824ab718ef448ee1.js",
+      "static/chunks/573-49560d8834ebdc4d.js",
+      "static/chunks/app/contact/page-13bb3c6d1915a09f.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/2da4bee36b3121f7.css",
+      "static/css/d3df112486f97f47.css",
+      "static/css/3455774f06405950.css",
+      "static/chunks/173-24da8ac9af1b1c03.js",
+      "static/chunks/573-49560d8834ebdc4d.js",
+      "static/chunks/271-2e9008829169a081.js",
+      "static/chunks/app/page-f634810309f2d26d.js"
+    ],
+    "/visa/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/bb5f16fc325da6b0.css",
+      "static/chunks/173-24da8ac9af1b1c03.js",
+      "static/chunks/app/visa/page-a96a2882456e850f.js"
+    ],
+    "/registration/page": [
+      "static/chunks/webpack-abb902f9983a5f1c.js",
+      "static/chunks/fd9d1056-f187fa28572b1f16.js",
+      "static/chunks/23-b356e2a8ef5c206d.js",
+      "static/chunks/main-app-f36c120dcb4a38d0.js",
+      "static/css/4d0354a20f7092a0.css",
+      "static/chunks/173-24da8ac9af1b1c03.js",
+      "static/chunks/app/registration/page-ee46c41bf950bc03.js"
+    ]
+  }
+}

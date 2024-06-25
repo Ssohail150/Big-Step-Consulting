@@ -1,0 +1,83 @@
+.customSection {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #c6e6f5;
+}
+
+.containerCustom {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.subHeading {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.list {
+    margin-bottom: 15px;
+}
+
+.orderedList {
+    margin-bottom: 15px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .paragraph {
+        font-size: 0.9rem;
+    }
+
+    .containerCustom {
+        padding: 10px;
+    }
+
+    .mt5 {
+        margin-top: 2rem !important;
+    }
+
+    .rowCustom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .colCustom {
+        margin-bottom: 20px;
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+}

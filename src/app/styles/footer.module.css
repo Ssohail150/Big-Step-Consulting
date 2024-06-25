@@ -1,0 +1,67 @@
+/* app/styles/footer.module.css */
+
+/* Ensure no overriding font-family here */
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c6e6f5;
+    color: #0d99da;
+}
+
+.footerContent {
+    padding: 1rem;
+}
+
+.footerLogo {
+    max-width: 100%;
+    height: auto;
+}
+
+.footerContact,
+.footerServices {
+    text-align: center;
+}
+
+.footerServices ul {
+    list-style: none;
+}
+
+.footerContent p {
+    line-height: 2.5rem;
+    font-size: 18px;
+}
+
+.footerContent h5 {
+    font-size: 20px;
+    color: #0d99da;
+}
+
+.footerContent li {
+    line-height: 2rem;
+    font-size: 16px;
+}
+
+/* New CSS for links */
+.footerLink {
+    color: #0d99da;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footerLink:hover {
+    color: #fff;
+}
+.footerCopyright {
+    font-size: 0.875rem;
+    color: #0d99da;
+}
+
+
+.footerHr {
+    border: 0;
+    height: 0.5px;
+    background: #0d99da;
+    margin: 20px auto;
+    width: 20%; /* Adjust the width as needed */
+}
